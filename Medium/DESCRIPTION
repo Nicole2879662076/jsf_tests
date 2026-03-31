@@ -1,0 +1,27 @@
+Package: jsfR
+Type: Package
+Title: R Wrapper for Python JSF Package via reticulate
+Version: 0.1.0
+Authors@R: 
+    person("Nicole", "Wang", , "siyuan-nicole.wang@connect.polyu.hk", role = c("aut", "cre"))
+Description: A basic R package that wraps the Python jsf package using reticulate.
+    This package demonstrates the core requirements for the GSoC Medium Test:
+    creating an R package that calls Python code via reticulate, with additional
+    features including S7 object system and basic visualization.
+License: MIT + file LICENSE
+# URL: https://github.com/yourusername/jsfR
+# BugReports: https://github.com/yourusername/jsfR/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    reticulate,
+    S7
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+SystemRequirements: Python (>= 3.8), pip
