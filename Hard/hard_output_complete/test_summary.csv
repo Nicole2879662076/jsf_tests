@@ -1,0 +1,2 @@
+"Test","Timestamp","Parameters","Simulation","Seed","JSF_Available","Plots_Generated","Output_Directory"
+"Hard Test: Stochastic Simulation Comparison","2026-03-31 23:22:21","λ=1.0, μ=0.5, X₀=5","t_max=4.0, reps=30",2026,"Yes","All 3","hard_output_complete"
